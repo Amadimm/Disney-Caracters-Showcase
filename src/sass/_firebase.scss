@@ -1,0 +1,132 @@
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.modal {
+
+
+    //     &__form{
+
+    //     // display: flex;
+    //     // align-items: center;
+    //     // justify-content: center;
+
+    // }
+
+    &__login {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.login {
+    &__close {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #fff;
+        // padding-top: 7px;
+        // padding-right: 10px;
+        font-size: 25px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        position: absolute;
+        top: 7px;
+        right: 7px;
+
+
+    }
+
+    &__modal {
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, .4);
+
+        margin: auto;
+        padding: 32px;
+    }
+
+}
+
+
+// .loggedIn {
+//     visibility: hidden;
+// }
+
+// .notLoggedIn {
+//     visibility: hidden;
+// }
+
+.modal__input-email,
+.modal__input-password {
+    padding-block: 1vmin;
+    padding-inline: 30px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, .4);
+
+    &:focus {
+        outline: #267cb1;
+    }
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-label {
+    color: #212121;
+    margin-top: 10px;
+    text-transform: none;
+    opacity: .7;
+}
+
+.modal__input-icon {
+    color: #267cb1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(50%, 50%);
+}
+
+.modal-button {
+    color: #fff;
+    margin-top: 20px;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #267cb1;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+.modal-icon {
+    color: #212121;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.modal-text {
+    text-transform: none;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    font-weight: 700;
+}
+
+.firebase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 8px;
+    text-transform: none;
+    font-weight: 400;
+}
