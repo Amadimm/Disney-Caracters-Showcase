@@ -1,3 +1,29 @@
+.inputWrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    // position: relative;
+    flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+}
+
+// .favHeader{
+
+
+// }
+
+.filter{
+    padding-block: 1vmin;
+        padding-inline: 5px;
+        // width: 100%;
+        border-radius: 4px;
+        border: none;
+        box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, .4);
+}
+
+
+
 .character {
     background-color: #267cb1;
     display: flex;
@@ -48,22 +74,57 @@
     width: 50px;
     height: auto;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 #favCharacters ul {
     list-style: none;
     padding: 0;
     margin-left: 10px;
+    
 }
 
 #favCharacters li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    
+}
+
+#favCharacters li:first-child {
+    padding-top: 10px;
 }
 
 #favCharacters img {
     width: 50px;
     height: auto;
     margin-right: 10px;
+    margin-left: 10px;
 }
+
+.character-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.character-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.character-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tv-shows-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
