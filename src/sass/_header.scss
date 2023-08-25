@@ -2,6 +2,8 @@
     width: 100%;
     background-color:#267cb1;
     border-bottom: solid 2px #0b2331;
+    position: fixed;
+    z-index: 10;
    
     &__box {
             display: flex;
