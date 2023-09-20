@@ -1,5 +1,6 @@
 const api_url = 'https://api.disneyapi.dev/character?pageSize=100';
-
+// const cors = require('cors')
+// app.use(cors())
 
 const favoritesMap = new Map();
 
